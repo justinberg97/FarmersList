@@ -2,10 +2,11 @@
 const Product = require('./classes/Product');
 const Cart = require('./classes/Cart');
 const Customer = require('./classes/Customer');
+const Auth = require('./classes/Auth');
 
-const carrots = new Product("Carrots", 4, "Bushel of carrots that have been freshly harvested for you");
-carrots.inStock; // true
-carrots.display();
+// const carrots = new Product("Carrots", 4, "Bushel of carrots that have been freshly harvested for you");
+// carrots.inStock; // true
+// carrots.display();
 
 
 

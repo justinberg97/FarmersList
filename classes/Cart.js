@@ -1,4 +1,4 @@
-const Product = require('./classes/Product');
+const Product = require('./Product');
 
 class Cart {
     constructor() {
@@ -8,9 +8,10 @@ class Cart {
 addProduct(product) {
     if (!(product instanceof Product)) {
         throw new Error("only products can be added");
-        this.products.push(product);
-        this.total += product.price;
+       
     }
+    this.products.push(product);
+    this.total += product.price;
 }
 removeProduct(index) {
     if (index <0 || index >= this.products.length) {

@@ -3,11 +3,11 @@ class Product {
         this.name = name;
         this.price = price;
         this.description = description;
-        this.inStock = true; // default value
+        this.inStock = true; 
     }
 
     display() {
-        return `Name: ${this.name}, Price: ${this.price}, Descrption: ${this.description}`;
+        return `Name: ${this.name}, Price: $${this.price}, Description: ${this.description}`;
 }
 };
 
